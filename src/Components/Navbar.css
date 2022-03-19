@@ -1,0 +1,29 @@
+:root{
+    --primary: #5B44F3;
+}
+.navbar-brand{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.nav-link{
+    color: #ADADAD;
+}
+
+.navbar-ul{
+    margin: 0 auto;
+}
+.btn1{
+    border: solid #000 ;
+}
+
+.btn1:hover{
+    color: var(--primary);
+    background-color: #fff;
+    border:solid #5B44F3;
+}
+
+.btn-dark:hover{
+    background-color: var(--primary);
+
+}
