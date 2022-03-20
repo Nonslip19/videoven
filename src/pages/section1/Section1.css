@@ -5,7 +5,7 @@
 .section1{
     margin-top: 5rem;
 }
-.col{
+.section1 .col{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -121,16 +121,18 @@
 .section1-right-boxes{
     position: absolute;
     bottom: 50px;
+
 }
 .section1-right-boxes > p {
     color: #fff;
     text-align: center;
     margin-bottom: 8px;
 }
-.boxes{
+.section1-right-boxes .boxes{
     display: flex;
     justify-content: space-evenly;
     width: 268px;
+    padding: 0 1rem;
 }
 .box{
     width: 62px;
@@ -196,14 +198,15 @@
     }
     .Vector1{
         top: -20px;
-        left: -5px;
+        left: 0px;
     }
     .Vector2{
         bottom: -30px;
-        right: -5px;
+        right: 0px;
     }
 
     .section1-right{
         margin-right: -3rem;
     }
   }
+

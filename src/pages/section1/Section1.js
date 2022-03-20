@@ -14,7 +14,7 @@ const Section1 = () => {
   return (
     <div className='container section1'>
       <div className="row">
-        <div className="col col-lg-7">
+        <div className="col col-lg-7 col-md-12 col-sm-12">
             <div className='section1-left'>
               <h1>İşinizi Güçlendirecek Videolar</h1>
               <h2>Artık İnteraktif</h2>
@@ -34,14 +34,14 @@ const Section1 = () => {
             </div>
         </div>
 
-        <div className="col col-lg-5">
+        <div className="col col-lg-5 col-md-12 col-sm-12">
           <div className='section1-right'>
              <div className='section1-right-container' style={{ backgroundImage: `url(${background})` }}>
              
               <img className='outline1' src={outline1} alt="" />
               <div className="merhaba-div">
                 <div className="merhaba">
-                  Merhaba :)   {/*  <i className="fab fa-facebook blue"></i> */}
+                  Merhaba :) 
                 </div>
                 <div className='merhaba-border'> </div>
 
