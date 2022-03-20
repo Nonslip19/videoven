@@ -1,0 +1,209 @@
+:root{
+    --primary: #5B44F3;
+    --secondary:#6204AC;
+}
+.section1{
+    margin-top: 5rem;
+}
+.col{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section1-left{
+    max-width: 31rem;
+    position: relative;
+}
+.section1-btn{
+    background-color: var(--primary) ;
+    color: #fff;
+    font-size: 18px;
+    width: 206px;
+    height: 45px;
+}
+.section1-btn:hover{
+    color: #fff;
+}
+
+.section1-left h1{
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.section1-left h2{
+    font-size: 48px;
+    color: var(--primary);
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    margin: 1.5rem 0;
+}
+
+.section1-left p{
+    font-size: 18px;
+}
+
+.ellipse10{
+    position: absolute;
+    left: -80px;
+    top: 130px;
+}
+.ellipse11{
+    position: absolute;
+    left: -88px;
+    top: 138px;
+}
+.Vector1{
+    position: absolute;
+    top: -20px;
+    left: -20px;
+}
+.Vector2{
+    position: absolute;
+    bottom: -30px;
+    right: -20px;
+}
+/* ----section1 / Rigth --------------   */
+.section1-right{
+    position: relative;
+    box-sizing: border-box;
+}
+.section1-right-container{
+    height: 522px;
+    width: 268px;
+}
+
+.section1-right .outline1{
+   z-index: -2;
+   position: absolute;
+   top: -20px;
+   right: 50px;
+}
+
+.Rectangle44{
+    position: absolute;
+    left: -75px;
+    top: 140px;
+}
+.Rectangle45{
+    position: absolute;
+    left: -80px;
+    top: 135px;
+}
+
+.Star42{
+    position: absolute;
+    left: -55px;
+    top: 155px;
+}
+.merhaba{
+    height: 48px;
+    width: 194px;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 200px 100px 100px 0px;
+    font-size: 24px;
+    padding-top: 4px;
+    position: absolute;
+    right: 0;
+    top: 40px;
+    font-weight: 400;
+}
+
+.merhaba-border{
+    height: 48px;
+    width: 194px;
+    border: 1px solid black;
+    border-radius: 200px 100px 100px 0px;
+    position: absolute;
+    right: -15px;
+    top: 30px;
+}
+.section1-right-boxes{
+    position: absolute;
+    bottom: 50px;
+}
+.section1-right-boxes > p {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 8px;
+}
+.boxes{
+    display: flex;
+    justify-content: space-evenly;
+    width: 268px;
+}
+.box{
+    width: 62px;
+    height: 62px;
+    border-radius: 10px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--primary);
+}
+
+.box .icon{
+    background-color: var(--secondary);
+    width: 17px;
+    height: 19px;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+.box-text{
+    font-size: 10px;
+    font-weight: 400;
+    margin-top: 8px;
+}
+.box .icon p{
+    color: #fff;
+    font-family: 'Times';
+    font-weight: 400;
+    font-size: 14px;
+}
+.section1-right-bottom{
+    background: rgba(94, 94, 94, 0.5);
+    border-radius: 0px 0px 40px 40px;
+    width: 268px;
+    font-size: 12px;
+    font-weight: 500;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+}
+
+@media only screen and (max-width: 576px) {
+    .section1-left{
+        text-align: center;
+        margin-bottom: 7rem;
+        padding: 0 2rem;
+    }
+    .section1-left h1{
+        font-size: 2rem;
+    }
+    .section1-left h2{
+        font-size: 2rem;
+    }
+    .section1-left p{
+        font-size: 15px;
+    }
+    .section1-btn{
+        font-size: 15px;
+    }
+    .Vector1{
+        top: -20px;
+        left: -5px;
+    }
+    .Vector2{
+        bottom: -30px;
+        right: -5px;
+    }
+
+    .section1-right{
+        margin-right: -3rem;
+    }
+  }

@@ -1,3 +1,4 @@
+
 :root{
     --primary: #5B44F3;
 }
@@ -25,5 +26,4 @@
 
 .btn-dark:hover{
     background-color: var(--primary);
-
 }
