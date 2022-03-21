@@ -3,11 +3,14 @@ import { BsPeople } from "react-icons/bs";
 import { AiOutlineHome } from "react-icons/ai";
 import { IoPricetagOutline } from "react-icons/io5";
 import { VscPieChart } from "react-icons/vsc";
-import { IoClose } from "react-icons/io5";
+//import { IoClose } from "react-icons/io5"; çarpı
 import ice from "../../../assets/images/ice.jpg"
 import rock from "../../../assets/images/rock.jpg"
 import slope from "../../../assets/images/slope.jpg"
+//import { RiUsbLine } from "react-icons/ri"; ağ
 
+import { BiTrashAlt } from "react-icons/bi";
+import { BiDotsVerticalRounded } from "react-icons/bi";
 import React from 'react'
 
 const Section3Left = () => {
@@ -28,8 +31,8 @@ const Section3Left = () => {
           <li className="list-group-item"><AiOutlineHome/> <span>Anasayfa</span> </li>
           <li className="list-group-item"><BsPeople/> <span>Kişiler</span></li>
           <li className="list-group-item"><IoPricetagOutline/> <span>Etiketler</span></li>
-          <li className="list-group-item"><AiOutlineHome/> <span>Raporlar</span></li>
-          <li className="list-group-item"><IoClose/> <span>Çöp Kutusu</span></li>
+          <li className="list-group-item"><VscPieChart/> <span>Raporlar</span></li>
+          <li className="list-group-item"><BiTrashAlt/> <span>Çöp Kutusu</span></li>
         </ul>
 
         <button type="button" className="btn btn-yeni">Yeni Video</button>
@@ -45,21 +48,21 @@ const Section3Left = () => {
               <img src={ice} alt=""/>
               <span>Uludağ</span>
             </div>
-            <BsPeople/>
+            <BiDotsVerticalRounded/>
           </li>
           <li class="list-group-item d-flex justify-content-between align-items-center">
             <div>
               <img src={rock} alt=""/>
               <span>Fethiye</span>
             </div>
-            <BsPeople/>
+            <BiDotsVerticalRounded/>
           </li>
           <li class="list-group-item d-flex justify-content-between align-items-center">
             <div>
               <img src={slope} alt=""/>
               <span>Olimpos</span>
             </div>
-            <BsPeople/>
+            <BiDotsVerticalRounded/>
           </li>
         </ul>
 
