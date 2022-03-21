@@ -15,7 +15,11 @@ Step 3 : Projeyi aşağağıdaki komutlardan biriyle başlatabilirsiniz. Yarn pa
 Projede Kullanılan Dil ve Kütüphaneler:
 
 -HTML
+
 -CSS
+
 -React
+
 -Bootsrap5
+
 -React-icons
