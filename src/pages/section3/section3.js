@@ -2,6 +2,7 @@ import React from 'react';
 import "./Section3.css";
 import Section3Left from './left/Section3Left';
 import Middle from './middle/Middle';
+import Section3Right from './right/Section3Right';
 
 // import {  } from 'react-icons/fa';
 // import { BsPeople } from "react-icons/bs";
@@ -22,10 +23,8 @@ const Section3 = () => {
         <div className="col col-lg-6">
           <Middle/> 
         </div>
-        <div className="col col-lg-8">
-           <div className="section3-right">
-
-           </div>
+        <div className="col col-lg-4">
+          <Section3Right/>
         </div>
       </div>
     </div>

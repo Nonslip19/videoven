@@ -8,7 +8,6 @@ import ice from "../../../assets/images/ice.jpg"
 import rock from "../../../assets/images/rock.jpg"
 import slope from "../../../assets/images/slope.jpg"
 //import { RiUsbLine } from "react-icons/ri"; ağ
-
 import { BiTrashAlt } from "react-icons/bi";
 import { BiDotsVerticalRounded } from "react-icons/bi";
 import React from 'react'

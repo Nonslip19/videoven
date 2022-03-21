@@ -1,0 +1,84 @@
+:root{
+    --primary: #5B44F3;
+    --secondary:#6204AC;
+    --third:#E6E8FF;
+}
+
+.section3-right{
+    width: 300px;
+}
+.section3-right .icons{
+    text-align: end;
+    color: #6204AC;
+    margin-bottom: 1rem;
+}
+.section3-right .icons span{
+    margin-left: 3px;
+}
+.section3-right .right-form{
+    border: 3px solid var(--third);
+}
+.cevap{
+    margin-top: 1rem;
+}
+.cevap span{
+    margin-right: 2rem;
+    color: #616370;
+    padding-bottom: .2rem;
+    font-weight: 600;
+}
+.cevap .active{
+    color: #6204AC;
+    border-bottom: 3px solid var(--secondary);
+}
+.section3-right .right-dropdown{
+    margin-top: 1rem;
+}
+.dropdown-toggle, .dropdown-menu{
+    width: 100%;
+}
+.dropdown-toggle span{
+    color: #fff;
+}
+label{
+    color: #616370;
+    font-weight: 500;
+}
+.btn-invidza{
+    background-color: #6204AC;
+    color: #fff;
+    max-width: 100%;
+    min-width: 100%;
+    margin-top: -8px ;
+}
+.btn-invidza:hover{
+    color: #fff;
+}
+.secenek-ekle{
+    font-size: 14px;
+    margin: 5px 0;
+}
+.secenek-ekle span{
+    background-color: #6204AC;
+    color: #fff;
+    padding: 0 5px; margin-right: 5px;
+    font-weight: 600;
+}
+.list-group-3{
+    font-size: 14px;
+}
+.list-group-3 span{
+    background-color: #E0CDED;
+    color: #616370;
+    width: 2.5rem;
+}
+.list-group-3 .list-group-item{
+    padding:8px 0;
+}
+.submit{
+    margin-top: -1rem;
+}
+.list-hr{
+   color: #fff;
+   /* visibility: hidden; */
+}
