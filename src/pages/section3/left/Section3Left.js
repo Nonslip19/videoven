@@ -1,3 +1,4 @@
+import React from 'react';
 import "./Section3Left.css";
 import { BsPeople } from "react-icons/bs";
 import { AiOutlineHome } from "react-icons/ai";
@@ -10,7 +11,8 @@ import slope from "../../../assets/images/slope.jpg"
 //import { RiUsbLine } from "react-icons/ri"; ağ
 import { BiTrashAlt } from "react-icons/bi";
 import { BiDotsVerticalRounded } from "react-icons/bi";
-import React from 'react'
+import { BsFillCalendar3EventFill } from "react-icons/bs";
+
 
 const Section3Left = () => {
   return (
@@ -65,7 +67,7 @@ const Section3Left = () => {
           </li>
         </ul>
 
-        <button type="button" className="btn btn-kredi">Kredi 350</button>
+        <button type="button" className="btn btn-kredi"><BsFillCalendar3EventFill/> <span>Kredi </span> <span>350</span></button>
         <button type="button" className="btn btn-yukselt">Yükselt</button>
 
     </div>

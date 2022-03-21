@@ -5,7 +5,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    position: absolute;
 }
 .img-bg{
     height: 430px;

@@ -78,7 +78,17 @@
    top: -20px;
    right: 50px;
 }
-
+.section1-right .play-div{
+    position: absolute;
+    top: 13rem;
+    left: 6.7rem;
+    width: 3rem;
+    height: 3rem;
+}
+.section1-right .play-div .Play91{
+    left: 15px;
+    top: 10px;
+}
 .Rectangle44{
     position: absolute;
     left: -75px;

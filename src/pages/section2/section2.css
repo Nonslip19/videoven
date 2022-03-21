@@ -8,7 +8,6 @@
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
-    border: 2px solid red;
     width: 100vw;
     height: 800px;
     z-index: -10;
@@ -18,7 +17,6 @@
     position: absolute;
     top: -3rem;
     right: 0;
-    border: 2px dotted #6204AC;
     background-size: cover;
     height: 900px;
     width: 100%;
@@ -34,6 +32,7 @@
     width: 275px;
     background-position: center;
     position:relative;
+    margin-left: 3rem;
 }
 .watch{
     background-color: rgba(255, 255, 255, 0.7);
@@ -98,7 +97,6 @@
     display: flex;
     justify-content: center;
     margin-top: 5px;
-    /* align-items: center; */
 }
 .box-text{
     font-size: 10px;
@@ -124,11 +122,14 @@
     bottom: 17px;
     right: 0;
 }
-
+.section2-left .play-div{
+    top: 12rem;
+    left: 7rem;
+    background-color: rgba(255, 255, 255, 0.7);
+}
 /* -----------section2 Right------------- */
 .section2-right{
     position: relative;
-    border: 2px solid #5B44F3;
     height: 500px;
     margin-top: -3rem;
     /* width: 700px; */
@@ -147,12 +148,12 @@
 .person1{
     position: absolute;
     top: 8rem;
-    left:-8rem ;
+    left:-6rem ;
 }
 .person2{
     position: absolute;
-    bottom: 3rem;
-    left:-8rem ;
+    bottom: 4rem;
+    left: 0 ;
 }
 .person3{
     position: absolute;
@@ -328,5 +329,24 @@
       -webkit-animation-timing-function: ease-out;
               animation-timing-function: ease-out;
       opacity: 1;
+    }
+  }
+
+  @media only screen and (max-width: 576px) {
+    .section2-right .outline-hidden{
+        visibility: hidden;
+    }
+    .section2-right h2{
+        font-size:30px ;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 5rem;
+        background-color: #FAF9FA;
+        padding: 0.5rem;
+    }
+    .section2-right-text{
+        position: absolute;
+        top: 8rem;
+        left: -1rem;
     }
   }

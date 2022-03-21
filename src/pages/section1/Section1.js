@@ -9,6 +9,8 @@ import Rectangle45 from "../../assets/images/Rectangle45.png";
 import Star42 from "../../assets/images/Star42.png";
 import Vector1 from "../../assets/images/Vector1.png";
 import Vector2 from "../../assets/images/Vector2.png";
+import Play91 from "../../assets/images/Play91.png";
+
 
 const Section1 = () => {
   return (
@@ -44,9 +46,13 @@ const Section1 = () => {
                   Merhaba :) 
                 </div>
                 <div className='merhaba-border'> </div>
-
               </div>
-              <div className='star-div'>
+
+              <div className="play-div">
+                <img className="Play91" src={Play91} alt=""/>
+              </div>    
+
+              <div className='star-div1'>
                 <img src={Rectangle44} alt="" className='Rectangle44' />
                 <img src={Rectangle45} alt="" className='Rectangle45' />
                 <img src={Star42} alt="" className='Star42' />

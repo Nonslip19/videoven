@@ -14,7 +14,8 @@ import BG from  "../../assets/images/Background.png";
 import BgLine from  "../../assets/images/BG-border.png";
 import Rectangle67 from "../../assets/images/Rectangle67.png"
 import dottedLine from "../../assets/images/Vector19.png"
- 
+import Play91 from "../../assets/images/Play91.png";
+
 const section2 = () => {
   return (
     <div className='BG' style={{ backgroundImage: `url(${BG})` }}>
@@ -25,6 +26,12 @@ const section2 = () => {
                 <div className='section2-left' style={{ backgroundImage: `url(${section2Left})` }}>
                    <img className='left-bg' src={Rectangle67} alt="" />  
                    <p className='watch'>00:06 / 00:09</p>
+
+
+                   <div className="play-div">
+                     <img className="Play91" src={Play91} alt=""/>
+                   </div> 
+
                    <div className="section1-left-boxes"> 
                          <p>Nasıl cevaplamak istersiniz?</p>
                       <div className="boxes">
@@ -49,13 +56,15 @@ const section2 = () => {
                 <div className='section2-right'>
                     <h2>Güçlü Bir İletişim İçin <br />
                         Videoyla Hitap Edin</h2>
-                    <img className='dottedLine' src={dottedLine} alt=""/>
-                    <img className='person1 bounce-top' src={person1} alt=""/>
-                    <img className='person2 bounce-top' src={person2} alt=""/>
-                    <img className='person3 bounce-top' src={person3} alt=""/>
-                    <img className='person4 bounce-top' src={person4} alt=""/>
-                    <img className='person5 bounce-top' src={person5} alt=""/>
-                    <img className='person6 bounce-top' src={person6} alt=""/>
+                    <div className='outline-hidden'>
+                        <img className='dottedLine' src={dottedLine} alt=""/>
+                        <img className='person1 bounce-top' src={person1} alt=""/>
+                        <img className='person2 bounce-top' src={person2} alt=""/>
+                        <img className='person3 bounce-top' src={person3} alt=""/>
+                        <img className='person4 bounce-top' src={person4} alt=""/>
+                        <img className='person5 bounce-top' src={person5} alt=""/>
+                        <img className='person6 bounce-top' src={person6} alt=""/>
+                    </div>
                     <div className='section2-right-text'>
                         <h6>Tanem Seçkin <span className='dot'> · </span> CRO @Koluman</h6>
                         <p>Kısa zamanda, çok daha az eforla, büyük ölçekli geri dönüşler alabildiğimiz için çalışmalarımızdaki verimi ciddi biçimde artırdı Videoven.</p>
