@@ -1,3 +1,8 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(../src/assets/font-face/Euclid\ Circular\ A\ Regular.ttf) format("truetype");
+  }
 
-
-/* background-image: linear-gradient(135deg, #ffcc70 15%, #ffffff 15%, #ffffff 85%, #ffcc70 85%); */
+/* .pppp{
+    font-family: myFirstFont;
+} */

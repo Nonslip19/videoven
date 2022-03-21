@@ -1,4 +1,20 @@
-.section3{
-    height: 100vh;
-    background-color: rgb(255, 255, 255);
+:root{
+    --primary: #5B44F3;
+    --secondary:#6204AC;
+    --third:#E6E8FF;
 }
+.section3{
+    margin-top: 7rem;
+    height: 100vh;
+}
+.section3-header{
+  text-align: center;
+}
+.section3-header h2{
+    font-size: 36px;
+}
+.section3-header p{
+    font-size: 18px;
+}
+
+/* ----------------------left------------------ */
