@@ -1,3 +1,5 @@
+http://suidigital.surge.sh/
+
 React Kurulumu:
 
 Adım 1: Bilgisayarınızda Node.js ve npm sürümlerinin yüklü olması gerekir. Projeyi oluşturmak için bir klasör içerisinde aşağıda yer alan komutları çalıştırın.  
