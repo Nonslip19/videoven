@@ -6,8 +6,8 @@ import Section3 from './section3/Section3';
 const Main = () => {
   return (
     <div className='container'>
-      {/* <div className="row"> <Section1/></div> */}
-      {/* <div className="row"> <Section2/></div> */}
+      <div className="row"> <Section1/></div>
+      <div className="row"> <Section2/></div>
       <div className="row"> <Section3/></div>
     </div>
   )
