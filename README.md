@@ -10,7 +10,7 @@ Adım 2: Dosyalar yüklendikten sonra aşağıdaki komutla projenin içerisine g
 
 -->cd videoven
 
-Step 3 : Projeyi aşağağıdaki komutlardan biriyle başlatabilirsiniz. Yarn paketi daha hızlı çalışmaktadır.
+Adım 3 : Projeyi aşağağıdaki komutlardan biriyle başlatabilirsiniz. Yarn paketi daha hızlı çalışmaktadır.
 
 -->npm start yada yarn start
 
