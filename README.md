@@ -6,11 +6,11 @@ Adım 1: Bilgisayarınızda Node.js ve npm sürümlerinin yüklü olması gereki
 
 --> npx create-react-app videoven
 
-Adım 2: Dosyalar yüklendikten sonra aşağıdaki komutla projemizin içerisine giriyoruz.
+Adım 2: Dosyalar yüklendikten sonra aşağıdaki komutla projenin içerisine girin.
 
 -->cd videoven
 
-Step 3 : Projeyi aşağağıdaki komutlardan biriyle başlatabilirsiniz. Yarn paketi daha hızlı çalışmaktadır.
+Adım 3 : Projeyi aşağağıdaki komutlardan biriyle başlatabilirsiniz. Yarn paketi daha hızlı çalışmaktadır.
 
 -->npm start yada yarn start
 
